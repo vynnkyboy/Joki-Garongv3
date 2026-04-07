@@ -126,4 +126,41 @@
       linear-gradient(to bottom, #00000012 1px, transparent 1px);
     background-size: 16px 16px;
   }
+  /* Additional styles for ads */
+.ad-container {
+  margin: 1rem 0;
+}
+
+@media (max-width: 1024px) {
+  .lg\:w-\[160px\] {
+    width: 100%;
+  }
+  
+  .lg\:w-\[300px\] {
+    width: 100%;
+    margin-top: 1rem;
+  }
+    }
+
+    /* Ensure ads don't break layout */
+    iframe {
+    max-width: 100%;
+    }
+
+    /* Sticky ad containers */
+    .sticky {
+    position: sticky;
+    top: 100px;
+    }
+
+    /* Mobile menu z-index fix */
+    .z-30 {
+    z-index: 30;
+    }
+
+    /* Social bar styling */
+    .social-bar-container iframe,
+    .social-bar-container div {
+    margin: 0 auto;
+    }
 }

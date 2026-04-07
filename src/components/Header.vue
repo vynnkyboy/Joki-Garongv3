@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { useLanguage } from '../composables/useLanguage'
 
 const { currentLang, t, toggleLanguage } = useLanguage()

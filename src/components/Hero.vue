@@ -16,7 +16,7 @@
         <div class="flex justify-center">
           <div class="pixel-border-thick bg-white p-3 pixel-shadow-lg max-w-sm pixel-grid-bg">
             <img 
-              src="../assets/images/pika.gif" 
+              src="https://krnqkczrwoyhwezbldqv.supabase.co/storage/v1/object/public/Asset/pika.gif" 
               alt="pixel pika" 
               class="pixelated-img w-36 h-36 md:w-44 md:h-44 mx-auto object-contain"
               loading="lazy"
